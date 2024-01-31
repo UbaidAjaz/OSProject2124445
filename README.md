@@ -420,7 +420,8 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . drwxr-xr-x+ 2 root root 4096 Jan 31 13:01 /usr/local/apache2/htdocs
 2. What port is the apache web server running. 8080
 3. What port is open for http protocol on the host machine? 80
-I can't see my index file, not sure why
+
+Port assignment wasn't successful. can't figure out why
 
 ## What to submit
 

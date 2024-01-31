@@ -377,14 +377,21 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** total 4
+drwxr-xr-x+ 2 root root 4096 Jan 31 12:22 myroot Group is root
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+total 44
+ 4 drwxrwxrwx+ 5 codespace root       4096 Jan 31 12:09 .
+ 4 drwxr-xrwx+ 6 codespace root       4096 Jan 31 12:16 ..
+ 4 drwxrwxrwx+ 9 codespace root       4096 Jan 31 12:29 .git
+24 -rw-rw-rw-  1 codespace root      22449 Jan 31 12:42 README.md
+ 4 drwxrwxrwx+ 2 codespace root       4096 Jan 31 10:04 images
+ 4 drwxrwxrwx+ 3 codespace codespace  4096 Jan 31 12:22 myroot
 
 ## You are on your own, create your own static webpage
 
@@ -410,9 +417,9 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)***
-3. What port is open for http protocol on the host machine? ***(1 mark)***
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . drwxr-xr-x+ 2 root root 4096 Jan 31 13:01 /usr/local/apache2/htdocs
+2. What port is the apache web server running. 8080
+3. What port is open for http protocol on the host machine? 80
 
 ## What to submit
 

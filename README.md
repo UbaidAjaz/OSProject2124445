@@ -422,6 +422,7 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 3. What port is open for http protocol on the host machine? 80
 
 Port assignment wasn't successful. can't figure out why
+Everything else finished
 
 ## What to submit
 
